@@ -1,7 +1,8 @@
 {
   "env": {
     "browser": true,
-    "es2021": true
+    "es2021": true,
+    "commonjs": true
   },
   "extends": "airbnb-base",
   "parserOptions": {
@@ -9,6 +10,9 @@
     "sourceType": "module"
   },
   "rules": {
-    "quotes": ["error", "double"]
+    "quotes": ["error", "double"],
+    "no-param-reassign": "off",
+    "no-undef": "off",
+    "comma-dangle": "off"
   }
 }
